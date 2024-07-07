@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo de Dijkstra</title>
+    <link rel="stylesheet" href="/CSS/styles7.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Algoritmo de Dijkstra</h1>
+        <p>Encuentra el camino más corto en el siguiente grafo.</p>
+        <div id="grafo">
+            <img src="/media/dijkstra.png" alt="Algoritmo de Dijkstra" width="300" height="200">
+
+        </div>
+        <div>
+            <label for="inicio">Nodo de inicio:</label>
+            <input type="text" id="inicio" placeholder="A">
+            <label for="fin">Nodo de fin:</label>
+            <input type="text" id="fin" placeholder="B">
+        </div>
+        <button onclick="encontrarCamino()">Encontrar Camino</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script_dijkstra.js"></script>
+</body>
+</html>

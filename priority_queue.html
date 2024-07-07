@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementación de una Cola de Prioridad</title>
+    <link rel="stylesheet" href="/CSS/styles9.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cola de Prioridad con Heap</h1>
+        <p>Añade elementos a la cola de prioridad e inspecciona el elemento con mayor prioridad.</p>
+        <div>
+            <label for="elemento">Elemento:</label>
+            <input type="text" id="elemento" placeholder="Introduce el elemento">
+            <label for="prioridad">Prioridad:</label>
+            <input type="number" id="prioridad" placeholder="Prioridad">
+        </div>
+        <button onclick="insertarElemento()">Insertar Elemento</button>
+        <button onclick="extraerMaximo()">Extraer Máximo</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script_priority_queue.js"></script>
+</body>
+</html>
